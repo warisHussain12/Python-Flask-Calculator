@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.header__h1{
+    padding: 2rem;
+    text-align: center;
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+section {
+    margin: 2rem;
+    text-align: center;
+}
+
+input {
+    padding: 1.5rem;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0 2rem;
+    border: 2px solid yellow;
+    border-radius: 0.1em;
+    font-size: 3rem;
+    background-color: black;
+    text-decoration: none;
+    color: papayawhip;
+    margin-bottom: 2rem;
+}
+
+.result__h2 {
+    text-align: center;
+    text-decoration: underline;
+}

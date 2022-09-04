@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}
+    Home
+{% endblock title %}
+{% block body %}
+    <form action="/" method="POST">
+        <section class="firstInput">
+                <input type="text" name="firstInput" id="firstInput" placeholder="Enter First Number">
+        </section>
+        <section class="secondInput">
+                <input type="text" name="secondInput" id="secondInput" placeholder="Enter Second Number">
+        </section>
+        <section>
+            <button type="submit">ADD</button>
+        </section>
+    </form>
+    <h2 class="result__h2">RESULT: {{result}}</h2>
+{% endblock body %}
